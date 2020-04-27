@@ -44,7 +44,7 @@ class Lane:
         self.char.center_x = SCREEN_WIDTH // 10
         self.char.scale = scale
 
-        self.floor = arcade.Sprite("./ressources/Floor_Tempo.png")
+        self.floor = arcade.Sprite("../ressources/Floor_Tempo.png")
         self.floor.center_y = SCREEN_HEIGHT - (SCREEN_HEIGHT // 3) * tier + 5
         floor_list = arcade.SpriteList()
         floor_list.append(self.floor)
@@ -72,7 +72,7 @@ class Lane:
         Generate a sprite in front of the character,
         to detect correct input when an obstacle arrive.
         """
-        valid_zone = arcade.Sprite("./ressources/Lane_Valid_Zone.png")
+        valid_zone = arcade.Sprite("../ressources/Lane_Valid_Zone.png")
         valid_zone.center_x = (self.SCREEN_WIDTH // 10) * 2
         valid_zone.center_y = (
             self.SCREEN_HEIGHT - (self.SCREEN_HEIGHT // 3) * self.tier + 90
