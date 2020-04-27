@@ -4,12 +4,12 @@
 3 Keys on the Run is a game realised with arcade python in the context of [pydis game jam 2020](https://pythondiscord.com/pages/events/game-jam-2020/).
 The theme was '3 of a kind'
 
-![A game to surpass Metal Gear](../3%20keys%20on%20the%20Run/ressources/Screenshot_full.png)
+![A game to surpass Metal Gear](./ressources/Screenshot_full.png)
 
 You only need 3 keys to play this game, Q, W and E ( A, Z and E for french keyboards).
 The goal of the game is to hit the correct key, when the circle is in the valid grey zone.
 
-![An impressive performance](../3%20keys%20on%20the%20Run/ressources/Screenshot_valid.png)
+![An impressive performance](./ressources/Screenshot_valid.png)
 
 *Depending on where you hit, you can get "Ok", "Super" and "PERFECT"*
 
@@ -18,7 +18,7 @@ Be wary, missing a circle, or having false input reset your combo to 0 and you l
 once they reach 0, it's GAME OVER. There is 3 levels of difficulty, triggered when you reach a certain score, making the
 circle faster. 
 
-![Life and Blood of the Gamer](../3%20keys%20on%20the%20Run/ressources/Screenshot_life.png)
+![Life and Blood of the Gamer](./ressources/Screenshot_life.png)
 
 If you have a GAME OVER, you are directed toward the High Score screen. If you are among the best, 
 you have the opportunity to enter 3 letters to commemorate your achievment. Try to be **#1**!
