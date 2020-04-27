@@ -1,60 +1,48 @@
-[![Game Jam Banner](three-of-a-kind.png)](#)
+# 3 Keys on the Run
 
-[![Discord](https://img.shields.io/static/v1?label=Python%20Discord&logo=discord&message=%3E40k%20members&color=%237289DA&logoColor=white)](https://discord.gg/2B963hn)
-[![License](https://img.shields.io/github/license/python-discord/bot)](LICENSE)
-[![Website](https://img.shields.io/badge/website-visit-brightgreen)](https://pythondiscord.com)
+## Presentation
+3 Keys on the Run is a game realised with arcade python in the context of [pydis game jam 2020](https://pythondiscord.com/pages/events/game-jam-2020/).
+The theme was '3 of a kind'
 
-### Welcome to the first Python Discord Game Jam!
+![A game to surpass Metal Gear](../3%20keys%20on%20the%20Run/ressources/Screenshot_full.png)
 
-#### The theme for this game jam is **Three-of-a-kind**.
+You only need 3 keys to play this game, Q, W and E ( A, Z and E for french keyboards).
+The goal of the game is to hit the correct key, when the circle is in the valid grey zone.
 
-What you do with this theme or how you interpret it is up to you, but it will be your task to come up with something fun using this theme.
+![An impressive performance](../3%20keys%20on%20the%20Run/ressources/Screenshot_valid.png)
 
-#### The chosen technology for this game jam is [Arcade](https://arcade.academy/).
+*Depending on where you hit, you can get "Ok", "Super" and "PERFECT"*
 
-Arcade is a simple-to-use, modern and powerful game development framework for Python. We know that a lot of you are probably relatively new to this framework and that's why we've got the creator of Arcade, **Paul Craven**, hanging out in the **`#game-jam`** channel to help. Feel free to ask if you've got questions about Arcade!
+Chaining corrects inputs raise your combo meter, the higher the combo meter is, the more point you gain for each input!
+Be wary, missing a circle, or having false input reset your combo to 0 and you lose a life orb. You start with 5 lives and
+once they reach 0, it's GAME OVER. There is 3 levels of difficulty, triggered when you reach a certain score, making the
+circle faster. 
 
-## Getting Started
+![Life and Blood of the Gamer](../3%20keys%20on%20the%20Run/ressources/Screenshot_life.png)
 
-### 1. Fork this repository
+If you have a GAME OVER, you are directed toward the High Score screen. If you are among the best, 
+you have the opportunity to enter 3 letters to commemorate your achievment. Try to be **#1**!
 
-Start by [forking this repository](https://github.com/python-discord/game-jam-2020/fork). If you're working as a team, only one person needs to do this.
+## Installation 
 
-### 2. Create a team folder in the repo
+Installation is simple, first clone this repo and install the required libraries with this command, in your terminal:
 
-You should come up with some team name, and then create a folder in the root of this repository with your team name. **All your project files must be contained within your team's subdirectory**. If you make any changes to files other than those in your team folder, we will not be able to merge your PR, and may have to disqualify your submission.
+```pip install -r requirement.txt```
 
-### 3. Study the guides and guidelines
+Once you've done that, just launch the game with this command, still in your terminal:
 
-We have written several documents that you should read through if you haven't done so already. These can all be accessed from the sidebar on [the main event page on our website](https://pythondiscord.com/pages/events/game-jam-2020/). The most important pages to work through can be found here:
+```python game.py``` or ``python3 game.py``
 
-- [Rules](https://pythondiscord.com/pages/events/game-jam-2020/rules/)
-- [Judging](https://pythondiscord.com/pages/events/game-jam-2020/judging/)
-- [Technical Requirements](https://pythondiscord.com/pages/events/game-jam-2020/technical-requirements/)
-- [Project Setup](https://pythondiscord.com/pages/events/game-jam-2020/project-setup/)
+## Credits
+- Music is [It Feels Good to be alive by Loyalty Freak Music](https://freemusicarchive.org/music/Loyalty_Freak_Music) (CC0).
+You can find their website [here](https://loyaltyfreakmusic.com/).
 
-### 4. Create a pull request
+- All Arts were drawn by me with the help of [Pixel Studio](https://store.steampowered.com/app/1204050/Pixel_Studio_for_pixel_art/) 
+(free on Steam).
 
-Open a pull request from your fork's `master` to the `master` branch of this repository in order to submit your project. You should use the name of your team as the name of the pull request.
+- Font used in Pixel Studio is FieldGuide by rarelikeunicorn (CC BY 4.0).
 
-### 5. Commit to your master branch
-
-The pull request you created will be automatically updated whenever you push code to `master` on your fork, so you can create the pull request whenever you want and you only have to do it once. You do not need to wait until the very end of the game jam before you do it. Just keep pushing code to your `master` branch and do your best to finish before the game jam ends!
-
-If you are working as a team, you should consider learning about feature branches so that you don't all work directly on the `master` branch and cause each other a bunch of conflicts. For a short explanation of how this works, see [this video](https://www.youtube.com/watch?v=j7YDbrS9I48).
-
-## Useful Information for Participants
-
-Our website contains some pages that may help you get started:
-
-- [How to use git](https://pythondiscord.com/pages/code-jams/using-git/)
-- [Making a fork, opening a pull request, & creating a GitHub webhook](https://pythondiscord.com/pages/code-jams/pull-request/)
-- [Event page](https://pythondiscord.com/pages/events/game-jam-2020/)
-- [Rules](https://pythondiscord.com/pages/events/game-jam-2020/rules/)
-- [Judging](https://pythondiscord.com/pages/events/game-jam-2020/judging/)
-- [Technical Requirements](https://pythondiscord.com/pages/events/game-jam-2020/technical-requirements/)
-- [Project Setup](https://pythondiscord.com/pages/events/game-jam-2020/project-setup/)
-
-## Partners
-
-[![arcade](Python%20Arcade%20logo.png)](https://arcade.academy)
+- About inspiration for the top part, I took Yoshi Island, the middle part I googled pixel art city and look at images, 
+for the last panel I just wanted a space effect, and seen one similar in Neptunia Shooter.
+For the letters in the various "ok", "miss", "super", they were redrawn based on a Super Mario Bross 3 font image i
+looked up [there](https://www.supermariobrosx.org/forums/viewtopic.php?t=16186) by BMATSANTOS.
